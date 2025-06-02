@@ -1,5 +1,13 @@
+*Thanks to [Luke J Byrne](https://github.com/lukejbyrne) for the Repository! This is my fork of the [original repository](https://github.com/lukebyrne/azure-data-engineering-e2e-project) for my own learning and reference.*
+*Please check out his [YouTube video](https://www.youtube.com/watch?v=ygJ11fzq_ik&t=4868s) for a detailed walkthrough of the project.*
+
 # Azure End-to-End Data Engineering Real-Time Project
+
 This project is a data engineering pipeline solution to a made-up business problem, created to aid in my learning and understanding of data pipelining.
+
+## Problem Statement / Business Request
+
+In this project, your company has recognized a gap in understanding its customer demographics—specifically, the gender distribution within the customer base and how it might influence product purchases. With a significant amount of customer data stored in an on-premises SQL database, key stakeholders have requested a comprehensive KPI dashboard. This dashboard should provide insights into sales by gender and product category, showing total products sold, total sales revenue, and a clear gender split among customers. Additionally, they need the ability to filter this data by product category and gender, with a user-friendly interface for date-based queries.
 
 ## Project Overview
 
@@ -15,9 +23,11 @@ The business has identified a gap in understanding customer demographics—speci
 
 ## Solution Overview
 
+To address this request, we'll build a robust data pipeline that extracts the on-premises data, loads it into Azure, and performs the necessary transformations to make the data more query-friendly. The transformed data will then feed into a custom-built report that meets all the specified requirements. This pipeline will be scheduled to run automatically every day, ensuring that stakeholders always have access to up-to-date and accurate data.
+
 To meet these requirements, the solution is broken down into the following components:
 
-1. **Data Ingestion**: 
+1. **Data Ingestion**:
     - Extract customer and sales data from an on-premises SQL database.
     - Load the data into Azure Data Lake Storage (ADLS) using Azure Data Factory (ADF).
 
