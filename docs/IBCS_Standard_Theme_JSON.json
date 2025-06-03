@@ -1,0 +1,46 @@
+{
+    "name": "IBCS_Standard_Theme",
+    "dataColors": [
+        "#000000",
+        "#A6A6A6",
+        "#FFFFFF",
+        "#CFCFCF",
+        "#00B050",
+        "#FF0000",
+        "#D9D9D9",
+        "#F2F2F2"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#282828",
+    "tableAccent": "#E9B226",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [
+                    {
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 10
+                    }
+                ],
+                "title": [
+                    {
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 16
+                    }
+                ],
+                "header": [
+                    {
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 12
+                    }
+                ],
+                "labels": [
+                    {
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 10
+                    }
+                ]
+            }
+        }
+    }
+}
