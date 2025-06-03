@@ -1,4 +1,4 @@
-USE [AdventureWorksLT2019]
+USE [AdventureWorksLT2022]
 GO
 
 INSERT INTO [SalesLT].[Product]
