@@ -25,6 +25,8 @@ The business has identified a gap in understanding customer demographics—speci
 
 To address this request, we'll build a robust data pipeline that extracts the on-premises data, loads it into Azure, and performs the necessary transformations to make the data more query-friendly. The transformed data will then feed into a custom-built report that meets all the specified requirements. This pipeline will be scheduled to run automatically every day, ensuring that stakeholders always have access to up-to-date and accurate data.
 
+![Diagram illustrating an end-to-end Azure data engineering pipeline. Data originates from an On-Premises SQL Server, is ingested via Azure Data Factory, transformed through Bronze, Silver, and Gold layers in Azure Data Lake Storage Gen2 using Azure Databricks, and then loaded into Azure Synapse Analytics for visualization in Power BI. Supporting services like Azure Key Vault and Azure AD are also shown.](https://raw.githubusercontent.com/dineshpalli/rg-data-engineering-project/refs/heads/main/graphics/project_plan.png)
+
 To meet these requirements, the solution is broken down into the following components:
 
 1. **Data Ingestion**:
